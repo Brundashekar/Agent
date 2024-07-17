@@ -1,0 +1,215 @@
+---
+output:
+  html_document: default
+resource_files:
+- message.json
+- destination.json
+- script.awk
+- message_raw.json
+---
+
+
+```{r sending email, message=FALSE, warning=FALSE, echo = FALSE}
+# library(knitr)
+library(httr)
+library(glue)
+library(jsonlite)
+library(lubridate)
+library(rmarkdown)
+# merchant_id_list <- list(
+#   'com.swiggy' = c('brunda.shekar@juspay.in'),
+#    'Grofers' = c('brunda.shekar@juspay.in')
+# )
+merchant_id_list <- list(
+  'gamezy' = c(
+    "paymentops.gamezy@gameskraft.com",
+    "data@juspay.in",
+    "support@juspay.in"
+  ),
+    'olacabs' = c('noopur.rajabhoj@olacabs.com',    "data@juspay.in",    "support@juspay.in"),
+     'TUL_TMP' = c("anahar@tataunistore.com",  "data@juspay.in",    "support@juspay.in")
+  # 'com.swiggy' = c(
+  #   "manjunath.c@swiggy.in",
+  #   "vishvak.saen@swiggy.in",
+  #   "manu.chadha@swiggy.in",
+  #   "aaditya.nema@swiggy.in",
+  #   "madhusudhan.rao@swiggy.in",
+  #   "engg-payments@swiggy.in",
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'Grofers' = c(
+  #   'lohit.gupta@grofers.com',
+  #   'dhananjay.shashidharan@grofers.com',
+  #   'sourabh.chawla@grofers.com',
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'gameskraft'  = c(
+  #   'prashant.sharma@gameskraft.in',
+  #   'abhishek.tiwari@gameskraft.in',
+  #   'dhanesh.prem@gameskraft.in',
+  #   'ankit.dhingra@gameskraft.in',
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'mplgaming'  = c(
+  #   "gauribedekar@mplgaming.com",
+  #   "satwik@mplgaming.com",
+  #   "krishna@mplgaming.com",
+  #   "manishaswani@mplgaming.com",
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'dreamplug_live' = c(
+  #   "krunal.chauhan@cred.club",
+  #   "swamy@cred.club",
+  #   "rahul@cred.club",
+  #   "kunal.dakhane@cred.club" ,
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'vodafone_app' = c(
+  #   'Shubhra.Meshram@vodafoneidea.com',
+  #   'dwip.sengupta@vodafoneidea.com',
+  #   'sachin.Bhorge@vodafoneidea.com',
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'vodafone_web' = c(
+  #   'Shubhra.Meshram@vodafoneidea.com',
+  #   'dwip.sengupta@vodafoneidea.com',
+  #   'sachin.Bhorge@vodafoneidea.com',
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ), 
+  # 'bigbasket' = c(
+  #   "prashant.aiyar@bigbasket.com",
+  #   "shefali.gupta@bigbasket.com",
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'zupee' =	c(
+  #   'rahul.goyal@zupee.in',
+  #   'gyanendra.maurya@zupee.in',
+  #   'jyoti.gupta@zupee.in',
+  #   'govind.mittal@zupee.in',
+  #   'naveen.kadyan@zupee.in',
+  #   'akanksha.dhamija@zupee.in',
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'relianceretail' = c(
+  #   'Rashmi.Upadhyaya@ril.com',
+  #   'Rajendra.Kamath@ril.com',
+  #   'Ravindra1.Patel@ril.com',
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 
+  # 'getsimpl' = c(
+  #   "shraddha.mehta@getsimpl.com",
+  #   "puneet@getsimpl.com",
+  #   "devarajan@getsimpl.com",
+  #   "shoan.motwani@getsimpl.com",
+  #   "aravinth.kumar@getsimpl.com",
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # )	,
+  # 'ixigoprod' = c(
+  #   'suraj.dubey@ixigo.com',
+  #   'puneet@ixigo.com',
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'pharmeasytech' = c(
+  #   "kushal.gupta@pharmeasy.in",
+  #   "sarika.singh@pharmeasy.in",
+  #   "sankshep.malhotra@pharmeasy.in",
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'firstcry' = c(
+  #   "akshay.pande@firstcry.com",
+  #   "rahul.arora@firstcry.com",
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'ajio_prod'  = c(
+  #   'anshul1.mittal@ril.com',
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # ),
+  # 'urbanclap' = c(
+  #   'chiragjain@urbancompany.com',
+  #   'naitikjain@urbancompany.com',
+  #   "data@juspay.in",
+  #   "support@juspay.in"
+  # )
+)
+
+# yyyy <- year(Sys.Date())
+# mm <- month(Sys.Date()) - 1
+
+for (merchant_names in names(merchant_id_list)) {
+  print("Running for merchant:")
+  print(merchant_names)
+  mid = merchant_names
+  email_ids <- toJSON(merchant_id_list[[merchant_names]])
+  subject_string <-
+    glue("Monthly Payment Performance Report for {merchant_names}")
+  
+  render(
+    "merchant.Rmd",
+    params = list(merchant_id = mid),
+    output_file = 'merchant.html'
+  )
+  print("Rmd generated")
+  
+  err <-
+    system(paste("base64 -w0 merchant.html > ./encoded_file.txt"))
+  if (err == 0) {
+    print("Encoding success")
+  } else {
+    print("Encoding failed")
+  }
+  err <-
+  system(paste("awk -f script.awk message_raw.json > ./message.json"))
+  if (err == 0) {
+    print("Attachment added successfully")
+  } else {
+    print("Attachment not added")
+  }
+  
+  addr <- paste(merchant_id_list[[merchant_names]], collapse = ", ")
+  print(addr)
+  mid <- paste0("sed -i 's/{merchant_names}/", merchant_names, "/g' message.json")
+  cmd <- paste0("sed -i 's/{to_mail}/", addr, "/g' message.json")
+  dt <- as.character(format(Sys.Date() - 30, "%B"))
+  end <- paste0("sed -i 's/{end}/", dt, "/g' message.json")
+  end <- system(end)
+  err <- system(cmd)
+  mid <- system(mid)
+  if (err == 0) {
+    print("Receipent mails added successfully")
+  } else {
+    print("Receipent mails not added")
+  }
+  print(system('cat message.json', intern = T))
+  
+  err <-
+    system(
+      paste(
+        'aws ses send-raw-email --raw-message file://message.json --region eu-west-1'
+      ),
+      wait = TRUE
+    )
+  if (err == 0) {
+    print("Mail sent successfully")
+  } else {
+    print("Mail sent error")
+  }
+}
+
+
+```

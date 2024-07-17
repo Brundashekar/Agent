@@ -1,0 +1,13 @@
+name: merchant_report_performance
+title: Merchant Report Performance
+username: brunda_shekar
+account: brunda_shekar
+server: rstudio-connect.internal.svc.k8s.mum.juspay.net
+hostUrl: https://rstudio-connect.internal.svc.k8s.mum.juspay.net/__api__
+appId: 347
+bundleId: 2164
+url: https://rstudio-connect.internal.svc.k8s.mum.juspay.net/content/347/
+when: 1623314243.75153
+lastSyncTime: 1623314243.75154
+asMultiple: TRUE
+asStatic: FALSE

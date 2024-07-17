@@ -1,0 +1,55 @@
+From: "JUSPAY" <noreply@juspay.in>
+To: {to_mail} 
+Subject: Monthly Payments Performance Report for {end} 2021
+MIME-Version: 1.0
+Content-type: Multipart/Mixed; boundary="NextPart"
+
+--NextPart
+Content-Type: multipart/alternative; boundary="sub_NextPart"
+
+--sub_NextPart
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Dear Merchant Partner,
+Merchant ID : {mid}  
+Please find below the Monthly Payments Report Card for the month of {end} 2021.
+In case of any queries, please reach out to us at support@juspay.in.
+NOTE: Some mail clients may not properly view HTML attachments; please download the document for the best experience.
+Thanks and Regards,
+Team Juspay
+
+--sub_NextPart
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head></head>
+<body>
+<p>Dear Merchant Partner,
+<br> </br>
+<br> </br>
+Please find below the Monthly Payments Report Card for the month of {end} 2021.<br>
+<br> </br>
+In case of any queries, please reach out to us at support@juspay.in.<br>
+<br> </br>
+  <b>NOTE:</b> Some mail clients may not properly view HTML attachments; please download the document for the best experience.</p>
+<br> </br>
+<br> </br>
+<p>Thanks and Regards,<br>
+Team Juspay</p>
+</body>
+</html>
+
+--sub_NextPart--
+
+--NextPart
+Content-Type: text/html; name="PaymentsReportCard_{end}.html"
+Content-Disposition: attachment;filename="PaymentsReportCard_{end}.html"
+Content-Transfer-Encoding: base64
+
+{attachment}
+
+--NextPart--
+
+

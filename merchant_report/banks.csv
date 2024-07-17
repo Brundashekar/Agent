@@ -1,0 +1,139 @@
+merchant_id,card_issuer_bank_name,gateway,t_txns,potential_sr,sr,potential_improvement,recommended_gateway,potential_pg_txns
+com.swiggy,RBL Bank,RAZORPAY,141664,82.92,78.44,4.48,CYBERSOURCE,52358
+com.swiggy,SBI,PAYU,89442,86.52,75.39,11.13,CYBERSOURCE,709566
+com.swiggy,Indian Bank,PAYU,75918,77.82,69.89,7.93,CYBERSOURCE,16846
+com.swiggy,Canara Bank,RAZORPAY,68102,84.53,77.42,7.11,CYBERSOURCE,69840
+com.swiggy,Canara Bank,PAYU,61130,84.53,69.44,15.09,CYBERSOURCE,69840
+com.swiggy,Bank of Baroda,RAZORPAY,58889,81.62,78.44,3.18,CYBERSOURCE,51946
+com.swiggy,Bank of Baroda,PAYU,51882,81.62,71.27,10.35,CYBERSOURCE,51946
+com.swiggy,Axis Bank,PAYU,42590,83.38,73.13,10.25,CYBERSOURCE,404729
+com.swiggy,Punjab National Bank,RAZORPAY,40435,74.79,69.91,4.88,PAYU,64798
+com.swiggy,Indian Bank,RAZORPAY,39694,77.82,74.4,3.42,CYBERSOURCE,16846
+com.swiggy,State Bank of Mauritius,CYBERSOURCE,35498,92.21,82.37,9.84,PAYTM,77
+com.swiggy,HDFC Bank,PAYU,33579,86.91,80.26,6.65,RAZORPAY,1060921
+com.swiggy,Indian Overseas Bank,PAYU,30924,77.09,73.05,4.04,CYBERSOURCE,13231
+com.swiggy,Union Bank of India,RAZORPAY,29287,78.6,75.42,3.18,PAYU,34831
+com.swiggy,RBL Bank,PAYU,27490,82.92,58.26,24.66,CYBERSOURCE,52358
+com.swiggy,Central Bank of India,PAYU,21618,81.18,76.05,5.13,CYBERSOURCE,7438
+com.swiggy,South Indian Bank,RAZORPAY,19901,76.34,65.9,10.44,PAYU,11811
+com.swiggy,UCO Bank,PAYU,19641,82.48,69.84,12.64,CYBERSOURCE,1672
+com.swiggy,Indian Overseas Bank,RAZORPAY,18788,77.09,71.9,5.19,CYBERSOURCE,13231
+com.swiggy,Bank of India,PAYU,18781,80.72,76.11,4.61,CYBERSOURCE,34501
+com.swiggy,Central Bank of India,RAZORPAY,17485,81.18,77.47,3.71,CYBERSOURCE,7438
+com.swiggy,Union Bank of India,CYBERSOURCE,13916,78.6,72.38,6.22,PAYU,34831
+com.swiggy,Federal Bank,PAYU,13899,82.86,78.49,4.37,CYBERSOURCE,28855
+com.swiggy,State Bank of Mauritius,RAZORPAY,13811,92.21,71.92,20.29,PAYTM,77
+com.swiggy,Karnataka Bank,RAZORPAY,12554,76.35,72.61,3.74,CYBERSOURCE,5479
+com.swiggy,Kotak Mahindra Bank,PAYU,11959,84.39,61.63,22.76,CYBERSOURCE,140230
+com.swiggy,Karnataka Bank,PAYU,11823,76.35,68.9,7.45,CYBERSOURCE,5479
+com.swiggy,Bank of Maharashtra,RAZORPAY,11310,73.86,53.32,20.54,PAYU,18689
+com.swiggy,Punjab National Bank,CYBERSOURCE,11164,74.79,59.7,15.09,PAYU,64798
+com.swiggy,,PAYU,10299,70.1,62.73,7.37,CYBERSOURCE,933
+com.swiggy,Andhra Bank,CYBERSOURCE,8580,70.93,64.48,6.45,RAZORPAY,16462
+com.swiggy,UCO Bank,RAZORPAY,7819,82.48,72.09,10.39,CYBERSOURCE,1672
+com.swiggy,South Indian Bank,CYBERSOURCE,7404,76.34,52.9,23.44,PAYU,11811
+com.swiggy,City Union Bank,PAYU,6428,75.8,68.06,7.74,CYBERSOURCE,3822
+com.swiggy,DBS Bank,RAZORPAY,6373,86.18,80.4,5.78,CYBERSOURCE,12162
+com.swiggy,SOUTHCAROLINAF.C.U.,RAZORPAY,6067,78.76,75.46,3.3,CYBERSOURCE,11462
+com.swiggy,IDFC Bank,PAYU,6039,81.27,63.07,18.2,CYBERSOURCE,18667
+com.swiggy,City Union Bank,RAZORPAY,4808,75.8,70.36,5.44,CYBERSOURCE,3822
+com.swiggy,DBS Bank,PAYU,4659,86.18,74.09,12.09,CYBERSOURCE,12162
+com.swiggy,Punjab and Sind Bank,PAYU,4639,70.73,65.47,5.26,CYBERSOURCE,861
+com.swiggy,Karur Vysya Bankas,RAZORPAY,4101,69.37,66.18,3.19,PAYU,12292
+com.swiggy,Saraswat Bank,RAZORPAY,3811,72.65,58.54,14.11,PAYU,9445
+com.swiggy,Bank of Maharashtra,CYBERSOURCE,3201,73.86,37.86,36.0,PAYU,18689
+com.swiggy,Citi Bank,PAYU,3075,87.73,67.51,20.22,CYBERSOURCE,271654
+com.swiggy,Paytm,RAZORPAY,3042,71.25,68.01,3.24,PAYU,9179
+com.swiggy,Deutsche Bank,CYBERSOURCE,2531,87.58,84.12,3.46,PAYU,161
+com.swiggy,Tamilnad Mercantile Bank,PAYU,2506,74.41,67.32,7.09,CYBERSOURCE,2564
+com.swiggy,Deutsche Bank,RAZORPAY,2235,87.58,84.52,3.06,PAYU,161
+com.swiggy,YES Bank,PAYU,2218,83.03,66.77,16.26,RAZORPAY,62130
+com.swiggy,Bandhan Bank Ltdas,RAZORPAY,2021,73.65,70.56,3.09,PAYU,5924
+com.swiggy,The Shamrao Vithal Cooperative Bank,RAZORPAY,2014,79.15,72.49,6.66,CYBERSOURCE,1180
+com.swiggy,Allahabad Bank,RAZORPAY,1978,81.39,75.18,6.21,CYBERSOURCE,3074
+com.swiggy,Punjab and Sind Bank,RAZORPAY,1953,70.73,61.75,8.98,CYBERSOURCE,861
+com.swiggy,The Cosmos Cooperative Bank,PAYU,1736,89.12,79.49,9.63,CYBERSOURCE,193
+com.swiggy,The Shamrao Vithal Cooperative Bank,PAYU,1611,79.15,69.58,9.57,CYBERSOURCE,1180
+com.swiggy,EUROPAYNORGE.A.S.,RAZORPAY,1446,81.36,78.28,3.08,CYBERSOURCE,1266
+com.swiggy,HSBC Bank,PAYU,1154,82.14,67.85,14.29,CYBERSOURCE,27715
+com.swiggy,Rbl Bank,PAYU,1136,67.13,63.47,3.66,RAZORPAY,435
+com.swiggy,Abhyudaya Cooperative Bank,RAZORPAY,979,66.02,62.61,3.41,PAYU,3011
+com.swiggy,Airtel Payments Bank,RAZORPAY,964,73.49,68.78,4.71,CYBERSOURCE,1490
+com.swiggy,ZIPCASH CARD SERVICES PVT LTD,RAZORPAY,946,80.05,75.9,4.15,CYBERSOURCE,1258
+com.swiggy,Wells Fargo Bank,PAYU,913,91.89,38.55,53.34,CYBERSOURCE,37
+com.swiggy,Bank of America,PAYU,893,84.44,56.1,28.34,CYBERSOURCE,90
+com.swiggy,Jana Small Finance Bank,PAYU,847,73.23,67.53,5.7,RAZORPAY,254
+com.swiggy,Gp Parsik Sahakari Bank,PAYU,815,64.46,60.25,4.21,RAZORPAY,287
+com.swiggy,The Cosmos Cooperative Bank,RAZORPAY,800,89.12,78.5,10.62,CYBERSOURCE,193
+com.swiggy,Card Services for Credit Unions,PAYU,770,72.34,48.44,23.9,RAZORPAY,3293
+com.swiggy,Standard Chartered Bank,PAYU,630,88.14,75.4,12.74,CYBERSOURCE,77714
+com.swiggy,Saraswat Bank,CYBERSOURCE,553,72.65,30.38,42.27,PAYU,9445
+com.swiggy,Dombivli Nagari Sahakari Bank,PAYU,534,61.18,58.05,3.13,RAZORPAY,152
+com.swiggy,Apna Sahakari Bank,PAYU,470,74.56,69.57,4.99,RAZORPAY,169
+com.swiggy,CITI Bank,CYBERSOURCE,355,71.74,36.62,35.12,PAYU,414
+com.swiggy,Vijaya Bank,CYBERSOURCE,350,80.2,74.0,6.2,RAZORPAY,409
+com.swiggy,Citizen Credit Cooperative Bank,RAZORPAY,327,74.97,69.42,5.55,PAYU,923
+com.swiggy,Thane Bharat Sahakari Bank,PAYU,319,73.91,67.08,6.83,RAZORPAY,115
+com.swiggy,Dhanalakshmi Bank,PAYU,285,36.16,32.28,3.88,CYBERSOURCE,1355
+com.swiggy,METABANK,PAYU,284,70.27,21.83,48.44,CYBERSOURCE,3054
+com.swiggy,Tamil Nadu State Apex Coop Bank,RAZORPAY,268,76.87,70.15,6.72,PAYU,748
+com.swiggy,The Mahanagar Cooperative Bank,RAZORPAY,266,79.43,67.67,11.76,PAYU,880
+com.swiggy,Assam Gramin Vikas Bank,PAYU,259,69.83,65.64,4.19,RAZORPAY,116
+com.swiggy,Janata Sahakari Bank,RAZORPAY,239,67.98,61.92,6.06,PAYU,712
+com.swiggy,The Municipal Cooperative Bank,RAZORPAY,233,80.86,72.1,8.76,PAYU,674
+com.swiggy,Nkgsb Cooperative Bank,RAZORPAY,209,73.39,70.33,3.06,PAYU,654
+com.swiggy,Uttarakhand Gramin Bank,PAYU,200,82.69,74.0,8.69,RAZORPAY,52
+com.swiggy,Bharati Sahakari Bank,RAZORPAY,198,82.41,76.26,6.15,PAYU,580
+com.swiggy,Janakalyan Sahakari Bank,RAZORPAY,197,78.44,61.93,16.51,PAYU,603
+com.swiggy,Tripura Gramin Bank,RAZORPAY,196,67.82,62.76,5.06,PAYU,609
+com.swiggy,Kalupur Bank,RAZORPAY,193,74.1,68.39,5.71,PAYU,529
+com.swiggy,Bangiya Gramin Vikas Bank,PAYU,190,81.97,72.11,9.86,RAZORPAY,61
+com.swiggy,EUROKARTENSYSTEMEGMBH,CYBERSOURCE,186,68.04,60.22,7.82,RAZORPAY,363
+com.swiggy,NSDL Payments Bank,PAYU,180,68.18,47.78,20.4,RAZORPAY,66
+com.swiggy,The Greater Bombay Cooperative Bank,RAZORPAY,176,72.73,69.32,3.41,PAYU,462
+com.swiggy,India Post Payments Bank,RAZORPAY,173,74.02,68.21,5.81,PAYU,485
+com.swiggy,SOUTHCAROLINAF.C.U.,PAYU,171,78.76,18.13,60.63,CYBERSOURCE,11462
+com.swiggy,SBI Card,CYBERSOURCE,165,96.25,90.3,5.95,RAZORPAY,1734
+com.swiggy,Andhra Pragathi Grameena Bank,RAZORPAY,162,45.37,41.98,3.39,PAYU,421
+com.swiggy,Axis Bank,PAYTM,149,83.38,30.2,53.18,CYBERSOURCE,404729
+com.swiggy,Janatha Seva Cooperative Bank,PAYU,148,62.26,50.68,11.58,RAZORPAY,53
+com.swiggy,Kokan Mercantile Cooperative Bank,PAYU,146,76.0,61.64,14.36,RAZORPAY,50
+com.swiggy,North East Small Finance Bank,PAYU,144,80.0,68.75,11.25,RAZORPAY,50
+com.swiggy,Fincare Small Finance Bank,RAZORPAY,139,58.97,54.68,4.29,PAYU,390
+com.swiggy,Bombay Mercantile Cooperative Bank,RAZORPAY,135,73.94,64.44,9.5,PAYU,426
+com.swiggy,SBM Bank,RAZORPAY,134,83.84,78.36,5.48,CYBERSOURCE,198
+com.swiggy,SERVICESC.U.,RAZORPAY,133,83.7,70.68,13.02,CYBERSOURCE,135
+com.swiggy,Andhra Bank,PAYU,131,70.93,31.3,39.63,RAZORPAY,16462
+com.swiggy,Pune People Cooperative Bank,PAYU,129,75.61,64.34,11.27,RAZORPAY,41
+com.swiggy,DCB,PAYU,129,81.86,62.79,19.07,RAZORPAY,6335
+com.swiggy,Shinhan Bank,CYBERSOURCE,128,94.87,90.63,4.24,RAZORPAY,39
+com.swiggy,Utkarsh Small Finance Bank,RAZORPAY,126,50.14,45.24,4.9,PAYU,365
+com.swiggy,Baroda Rajasthan Kshetriya Gramin Bank,PAYU,115,74.55,71.3,3.25,RAZORPAY,55
+com.swiggy,AU Small Finance Bank,PAYU,112,76.47,66.96,9.51,CYBERSOURCE,1500
+com.swiggy,The A P Mahesh Cooperative Urban Bank,RAZORPAY,105,65.49,61.9,3.59,PAYU,339
+com.swiggy,ICICI Bank,PAYTM,103,84.09,33.01,51.08,PAYU,28728
+com.swiggy,Thane District Central Cooperative Bank,RAZORPAY,97,41.22,37.11,4.11,PAYU,296
+com.swiggy,The Nainital Bank,RAZORPAY,95,68.13,61.05,7.08,PAYU,342
+com.swiggy,The Karnataka State Cooperative Apex Bank,RAZORPAY,92,62.45,51.09,11.36,PAYU,245
+com.swiggy,Indian Overseas Bank,PAYTM,84,77.09,54.76,22.33,CYBERSOURCE,13231
+com.swiggy,New India Cooperative Bank,RAZORPAY,80,82.68,73.75,8.93,PAYU,231
+com.swiggy,Syndicate Bank,PAYU,79,81.15,50.63,30.52,CYBERSOURCE,11499
+com.swiggy,State Bank of Mauritius,PAYU,77,92.21,55.84,36.37,PAYTM,77
+com.swiggy,Rajkot Nagarik Sahakari Bank,RAZORPAY,74,69.73,64.86,4.87,PAYU,185
+com.swiggy,Suryoday Small Finance Bank,RAZORPAY,71,73.8,63.38,10.42,PAYU,229
+com.swiggy,The Surat Peoples Cooperative Bank,RAZORPAY,69,75.11,63.77,11.34,PAYU,233
+com.swiggy,WOORIBANK,CYBERSOURCE,67,92.75,89.55,3.2,RAZORPAY,69
+com.swiggy,Pune District Central Cooperative Bank,RAZORPAY,66,73.11,63.64,9.47,PAYU,212
+com.swiggy,Meghalaya Rural Bank,RAZORPAY,62,66.15,61.29,4.86,PAYU,192
+com.swiggy,The Goa Urban Cooperative Bank,RAZORPAY,62,77.2,67.74,9.46,PAYU,193
+com.swiggy,The Accountant Generals Office Employees Cooperative Bank,RAZORPAY,61,78.14,63.93,14.21,PAYU,183
+com.swiggy,AU Bank,RAZORPAY,60,79.69,75.0,4.69,CYBERSOURCE,192
+com.swiggy,Arvind Sahakari Bank,RAZORPAY,57,72.43,64.91,7.52,PAYU,185
+com.swiggy,Zoroastrian Cooperative Bank,RAZORPAY,55,72.29,61.82,10.47,PAYU,166
+com.swiggy,The Ahmedabad District Cooperative Bank,RAZORPAY,54,71.61,68.52,3.09,PAYU,155
+com.swiggy,Model Cooperative Bank,RAZORPAY,53,76.25,69.81,6.44,PAYU,160
+com.swiggy,Tirupati Urban Cooperative Bank,RAZORPAY,53,73.23,69.81,3.42,PAYU,127
+com.swiggy,Rajasthan Marudhara Gramin Bank,RAZORPAY,52,80.0,69.23,10.77,PAYU,145
+com.swiggy,Karur Vysya Bank,PAYU,45,75.99,68.89,7.1,CYBERSOURCE,12143
+com.swiggy,Odisha Gramya Bank,RAZORPAY,45,79.1,73.33,5.77,PAYU,134
+com.swiggy,Ace Cooperative Bank,RAZORPAY,44,84.85,72.73,12.12,PAYU,132

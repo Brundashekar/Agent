@@ -1,0 +1,54 @@
+ec_merchant_id,ec_card_issuer_bank_name,volume,auth_method_otp,otp_detected,otp_populated,approve_auto_submit,authentication_success,ASR
+com.swiggy,Federal Bank,388,388,5,5,5,5,5
+com.swiggy,Baroda UP Bank,1,1,0,0,0,0,0
+com.swiggy,NB_INDB,12,12,12,0,0,0,0
+com.swiggy,Standard Chartered Bank,648,648,0,0,0,0,0
+com.swiggy,IDBI Bank,180,180,127,127,105,104,104
+com.swiggy,,11,11,9,9,9,9,9
+com.swiggy,NB_UNIB,2,2,2,2,0,0,0
+com.swiggy,Mudra Bank,111,111,69,69,61,60,60
+com.swiggy,NB_KOTAK,895,895,1,0,0,0,0
+com.swiggy,Tamil Nadu Grama Bank,2,2,0,0,0,0,0
+com.swiggy,NB_HDFC,3603,3603,2452,2437,2143,2104,2104
+com.swiggy,NB_UCOB,7,7,0,0,0,0,0
+com.swiggy,Andhra Pragathi Grameena Bank,3,3,1,1,1,0,0
+com.swiggy,Union Bank of India,244,244,173,173,110,108,108
+com.swiggy,AMEX,412,412,95,95,67,65,65
+com.swiggy,NB_BOI,4,4,0,0,0,0,0
+com.swiggy,DBS Bank,88,88,47,47,37,34,34
+com.swiggy,SBI,9804,9804,6296,6296,5268,5046,5046
+com.swiggy,NB_SBI,6666,6666,4142,4129,3832,3764,3764
+com.swiggy,Indian Overseas Bank,176,176,120,120,93,91,91
+com.swiggy,Indian Bank,194,194,131,131,103,90,90
+com.swiggy,Bank of Maharashtra,172,172,104,104,82,79,79
+com.swiggy,Karnataka Vikas Grameena Bank,4,4,0,0,0,0,0
+com.swiggy,Adarsh Cooperative Bank,1,1,0,0,0,0,0
+com.swiggy,IndusInd Bank,217,217,0,0,0,0,0
+com.swiggy,Punjab National Bank,453,453,270,270,214,207,207
+com.swiggy,YES Bank,241,241,178,178,153,151,151
+com.swiggy,Union Bank Of India,51,51,42,42,31,28,28
+com.swiggy,Paytm,4,4,2,2,2,1,1
+com.swiggy,HDFC BANK LIMITED,3,3,1,1,1,1,1
+com.swiggy,NB_AXIS,1179,1179,757,695,548,500,500
+com.swiggy,RBL Bank,920,920,678,678,551,536,536
+com.swiggy,CALSTATE9C.U.,21,21,10,10,9,9,9
+com.swiggy,ICICI Bank,5526,5526,4044,4044,3404,3186,3186
+com.swiggy,HDFC Bank,8791,8791,6392,6392,5573,5261,5261
+com.swiggy,Syndicate Bank,138,138,87,87,70,69,69
+com.swiggy,State Bank of Mauritius,119,119,71,71,59,52,52
+com.swiggy,Superking,1,1,1,1,1,1,1
+com.swiggy,Card Services for Credit Unions,4,4,3,3,1,1,1
+com.swiggy,NB_SBP,1,1,1,1,1,1,1
+com.swiggy,NB_SBM,2,2,2,2,1,1,1
+com.swiggy,Citi Bank,1281,1281,929,929,810,800,800
+com.swiggy,Canara Bank,704,704,546,546,491,479,479
+com.swiggy,NB_ICICI,4515,4515,2981,2902,2591,2217,2217
+com.swiggy,NB_CANR,64,64,58,52,37,31,31
+com.swiggy,NB_CUB,33,33,18,18,18,18,18
+com.swiggy,NB_KVB,14,14,0,0,0,0,0
+com.swiggy,Oriental Bank of Commerce,136,136,104,104,92,91,91
+com.swiggy,Karnataka Bank,45,45,0,0,0,0,0
+com.swiggy,SOUTHCAROLINAF.C.U.,112,112,55,55,45,42,42
+com.swiggy,Kotak Mahindra Bank,1129,1129,708,708,597,585,585
+com.swiggy,Central Bank of India,78,78,0,0,0,0,0
+com.swiggy,Axis Bank,3034,3034,1923,1923,1599,1553,1553

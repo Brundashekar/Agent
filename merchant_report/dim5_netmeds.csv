@@ -1,0 +1,2 @@
+gateway,payment_method_type,payment_method,auth_type,txn_object_type,volume,SR
+PAYTM,NB,NB_BOB,THREE_DS,ORDER_PAYMENT,297,0.0

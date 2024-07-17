@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@700&family=IBM+Plex+Sans:wght@200;300;700&display=swap');
+body{
+  background: ghostwhite;
+}
+
+.main-container {
+    max-width: 1230px !important;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(233, 233, 233, 0.3);
+}
+
+
+#header {
+    margin-left: 14px;
+}
+
+img {
+    width: 100%;
+}
+.highcharts-grid.highcharts-yaxis-grid, .highcharts-grid.highcharts-xaxis-grid {
+    opacity: 0.5;
+}
+#performace_heading {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  margin-left: 14px;
+  color: #666F7D;
+}
+
+#heading {
+font-family: Bebas Neue;
+font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 43px;
+  margin-left: 20px;
+  letter-spacing: 0.5px;
+  color: #666F7D;
+  margin-bottom: -15px;
+}
+
+#heading1{
+  
+font-family: Bebas Neue;
+font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 43px;
+  margin-left: 20px;
+  letter-spacing: 0.5px;
+  color: #666F7D;
+  margin-bottom: 10px;
+  
+}
+
+
+#subheading{
+  font-family: font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  color: #629FE5;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.break-after {
+    page-break-after: always;
+    background: #F4F9FD;
+    border-radius:5px;
+    margin:-15px;
+}
+#title1 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 86px;
+  color: #666F7D;
+}
+
+#title2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 86px;
+  color: #629FE5;
+}
+
+#underline_title {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  margin-left: 14px;
+}
+
+#underline_title_heading{
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  margin-left: 14px;
+}
+
+.card_view {
+    margin-left: 0px;
+}
+
+.p_block_1, .r_block_1{
+    display: -webkit-box;
+    display:flex;
+    padding:5px;
+    justify-content: center;
+}
+.p_block_2{
+    display: -webkit-box;
+    display:flex;
+    padding:5px;
+    justify-content: center;
+}
+
+.p_block_3{
+    display: -webkit-box;
+    display:flex;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left: 14px;
+}
+
+
+.r_block_2{
+    display: -webkit-box;
+    display:flex;
+    margin-left: 14px;
+    padding-left: 5px;
+}
+
+
+.r_block_3{
+    display: -webkit-box;
+    display:flex;
+    margin-left: 14px;
+    padding-left: 5px;
+}
+
+.main_box{
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #CCD2E2;
+  box-sizing: border-box;
+  border-radius: 9px !important;
+  width :31%;
+  height: 130px;
+  margin:10px;
+}
+/*.box_contents{
+  height: 100%;
+  padding:2px;
+}
+
+.metrics{
+  display: -webkit-box;
+  display:flex;
+  min-height: 80px;
+}
+
+
+*/
+
+
+
+.value{
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.label{
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  position: relative;
+  left: 19px;
+  top: 20px;
+}
+
+#box1{
+  float:right;
+}
+
+#box2{
+  float:left;
+}
+
+
+#del_color_red{
+/*  position: relative;
+  left: 220px !important;
+*/
+  float: right;
+  line-height: 25px;
+  margin-right: 15px;
+  color:red;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Fira Code;
+  font-style: normal;
+}
+
+#del_color_green{
+/*  position: relative;
+  left: 220px !important;
+*/
+  float: right;
+  line-height: 25px;
+  margin-right: 15px;
+  color:green;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Fira Code;
+  font-style: normal;
+}
+
+.mr_plots_highchart{
+  display: -webkit-box;
+  display: flex;
+  justify-content: center;
+  webkit-justify-content: center;
+}
+
+.chart_box{
+width: 420px;
+border: solid 1px gainsboro;
+background: white;
+border-radius: 4px;
+box-shadow: 0px 0px 20px 0px #dfdfdf;
+font-family: "Lucida Console", "Courier New", monospace;
+margin: 10px;
+padding: 18px;
+}
+
+.keep-together {
+    page-break-inside: avoid;
+}
+
+.break-before {
+    page-break-before: always;
+}
+
+.break-after {
+    page-break-after: always;
+}
+
+
+
+.chart_box_single{
+width: 860px;
+border: solid 1px gainsboro;
+background: white;
+border-radius: 4px;
+box-shadow: 0px 0px 20px 0px #dfdfdf;
+font-family: "Lucida Console", "Courier New", monospace;
+margin: 10px;
+padding: 18px;
+}
+
+.error{
+text-align: -webkit-center;
+text-align: center;
+padding: 100px;
+font-family: IBM Plex Sans;
+font-size: 22px;
+opacity: 0.5;
+}
+
+.chart_heading{
+    padding: 20px;
+    text-align: left;
+    font-family: Bebas Neue !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+    color: #666F7D;
+}
+
+
+thead {
+    background: linear-gradient(0deg, #F1F5FA 0%, #FDFEFF 100%) !important;
+    border: 1px solid rgba(205, 212, 235, 0.5) !important;
+    color: #8b98a4;
+    font-family: IBM Plex Sans;
+}
+
+tbody {
+    background: #FFFFFF !important;
+    font-family: IBM Plex Sans;
+}
+.lightable-material {
+    white-space: normal !important;
+    font-size: 14px !important;
+    color: black !important;
+    width: 1160px;
+    min-width: 1160px !important;
+}
+
+.lightable-material td {
+  border-right: 1px solid rgba(205, 212, 235, 0.5);
+}
+
+.lightable-material th {
+  height: 56px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.lightable-material td {
+  height: 52px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-top: 1px solid #eeeeee;
+}
+
+.UPIIntent {
+    font-size: 12px;
+}
+
+.highcharts-legend {
+    top: 20px !important;
+    position: relative !important;
+}
+
+
+
+
+/* Tootip */
+/*== start of code for tooltips ==*/
+.tool {
+    cursor: help;
+    position: relative;
+    top: 29px;
+    left: 15px;
+
+}
+
+
+/*== common styles for both parts of tool tip ==*/
+.tool::before,
+.tool::after {
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    z-index: -100;
+}
+
+.tool:hover::before,
+.tool:focus::before,
+.tool:hover::after,
+.tool:focus::after {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    z-index: 100; 
+}
+
+
+/*== pointer tip ==*/
+.tool::before {
+    border-style: solid;
+    border-width: 1em 0.75em 0 0.75em;
+    border-color: #3E474F transparent transparent transparent;
+    bottom: 100%;
+    content: "";
+    margin-left: -0.5em;
+    transition: all .65s cubic-bezier(.84,-0.18,.31,1.26), opacity .65s .5s;
+    transform:  scale(.6) translateY(-90%);
+} 
+
+.tool:hover::before,
+.tool:focus::before {
+    transition: all .65s cubic-bezier(.84,-0.18,.31,1.26) .2s;
+}
+
+
+/*== speech bubble ==*/
+.tool::after {
+    background: #3E474F;
+    border-radius: .25em;
+    bottom: 180%;
+    color: #EDEFF0;
+    content: attr(data-tip);
+    margin-left: -8.75em;
+    padding: 1em;
+    transition: all .65s cubic-bezier(.84,-0.18,.31,1.26) .2s;
+    transform:  scale(.6) translateY(50%);  
+    width: 17.5em;
+}
+
+.tool:hover::after,
+.tool:focus::after  {
+    transition: all .65s cubic-bezier(.84,-0.18,.31,1.26);
+}
+
+@media (max-width: 760px) {
+  .tool::after { 
+        font-size: .75em;
+        margin-left: -5em;
+        width: 10em; 
+  }
+}
+
+.label-whole{
+  display:flex;
+}
+
+.html-widget{
+  margin:20px;
+}
+
+.text_note{
+
+  margin-left: 20px;
+}
