@@ -1,4 +1,0 @@
-payment_method,source_object,payment_source,gateway,t_txns,potential_sr,sr,potential_improvement,recommended_gateway,potential_pg_txns
-MOBIKWIK,REDIRECT_WALLET_DEBIT,,BILLDESK,79956,56.86,51.88,4.98,RAZORPAY,42870
-PAYTM,REDIRECT_WALLET_DEBIT,,CCAVENUE_V2,2197,64.71,56.35,8.36,PAYTM,4375
-MOBIKWIK,REDIRECT_WALLET_DEBIT,,CCAVENUE_V2,600,56.86,44.67,12.19,RAZORPAY,42870
