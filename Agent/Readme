@@ -30,6 +30,48 @@ Debug - Category: bug_report, Complexity: moderate, Priority: Medium
 
 ✅ Summary: MEDIUM priority bug_report ticket assigned to Level2_Technical team (expected response: 72h)
 ------------------------------------------------------------
+-----------------------------------------
+
+[Batch 5/5]
+SUP-005 ticket ID
+None ticket ID from dict
+
+🎫 Processing Ticket #SUP-005
+Subject: No subject
+Customer: enterprise
+
+🔍 Step 1: Priority Agent Analysis
+   Priority: CRITICAL
+   Score: 6.0
+
+📊 Step 2: Classification Agent Analysis
+   Category: general_inquiry
+   Complexity: expert
+   Estimated Effort: 24.0 hours
+
+🎯 Step 3: Routing Decision
+Debug - Category: general_inquiry, Complexity: expert, Priority: Critical
+   ➤ ROUTED TO: Security_Team_Queue
+   Assigned Team: Security_Team
+   Expected Response: 4 hours
+   Confidence: 85.0%
+
+✅ Summary: CRITICAL priority general_inquiry ticket assigned to Security_Team team (expected response: 4h)
+------------------------------------------------------------
+
+🎉 Batch processing complete! Processed 5 tickets.
+============================================================
+✅ Batch processing completed for 5 tickets
+
+📊 Routing Statistics: {'total_tickets_processed': 13, 'ticket_ids_processed': ['SUP-001', 'SUP-002', 'SUP-003', 'SUP-004', 'SUP-005', 'SUP-006', 'SUP-007', 'SUP-008', 'SUP-001', 'SUP-002', 'SUP-003', 'SUP-004', 'SUP-005'], 'successful_processing': 13, 'errors_encountered': 0, 'priority_distribution': {'high': 2, 'low': 5, 'critical': 3, 'medium': 3}, 'category_distribution': {'general_inquiry': 3, 'billing': 1, 'technical': 4, 'account': 1, 'feature_request': 1, 'bug_report': 3}, 'team_distribution': {'Level2_Technical': 12, 'Security_Team': 1}, 'average_response_time_hours': 78.46, 'agents_used': {'priority_agent': 'PriorityAgent', 'classification_agent': 'ClassificationAgent', 'routing_agent': 'RoutingAgent'}}
+📄 Results exported to: my_routing_analysis.json
+💾 Results exported to my_routing_analysis.json
+
+✅ DEMONSTRATION COMPLETE!
+
+
+📄 Results exported to: my_routing_analysis.json
+
 
 
 🚀 ROUTING PROCESS COMPLETE!
