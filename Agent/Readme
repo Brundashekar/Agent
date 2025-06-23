@@ -1,3 +1,37 @@
+Sample Output:
+🚀 Multi-Agent Support System
+============================================================
+Initializing agents and routing system...
+
+📋 Processing 8 test tickets...
+============================================================
+SUP-001 ticket ID
+SUP-001 ticket ID from dict
+
+🎫 Processing Ticket #SUP-001
+Subject: This product is completely broken!!!
+Customer: free
+
+🔍 Step 1: Priority Agent Analysis
+   Priority: MEDIUM
+   Score: 2.4
+
+📊 Step 2: Classification Agent Analysis
+   Category: bug_report
+   Complexity: moderate
+   Estimated Effort: 2.0 hours
+
+🎯 Step 3: Routing Decision
+Debug - Category: bug_report, Complexity: moderate, Priority: Medium
+   ➤ ROUTED TO: Level2_Technical_Queue
+   Assigned Team: Level2_Technical
+   Expected Response: 72 hours
+   Confidence: 85.0%
+
+✅ Summary: MEDIUM priority bug_report ticket assigned to Level2_Technical team (expected response: 72h)
+------------------------------------------------------------
+
+
 🚀 ROUTING PROCESS COMPLETE!
 
 How tickets get routed to channels:
