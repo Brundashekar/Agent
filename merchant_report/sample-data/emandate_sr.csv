@@ -1,9 +1,0 @@
-"txn_object_type","merchant","volume","SR"
-"MANDATE_REGISTER","industry",173,43.35
-"EMANDATE_REGISTER","industry",250,25.6
-"MANDATE_PAYMENT","industry",7,85.71
-"EMANDATE_PAYMENT","industry",4,100
-"MANDATE_PAYMENT","vodafone_app",1379,97.24
-"MANDATE_REGISTER","vodafone_app",4425,73.69
-"EMANDATE_REGISTER","vodafone_app",46,19.57
-"EMANDATE_PAYMENT","vodafone_app",10,50
